@@ -6,7 +6,7 @@ parameters:
     database_user: ${SYMFONY__ENV__DATABASE_USER:-root}
     database_password: ${SYMFONY__ENV__DATABASE_PASSWORD:-~}
     database_path: "%kernel.root_dir%/../data/db/wallabag.sqlite"
-    database_table_prefix: ${SYMFONY__ENV__DATABASE_TABLE_PREFIX:-wallabag_}
+    database_table_prefix: ${SYMFONY__ENV__DATABASE_TABLE_PREFIX-wallabag_}
     database_socket: null
     database_charset: ${SYMFONY__ENV__DATABASE_CHARSET:-utf8}
 
