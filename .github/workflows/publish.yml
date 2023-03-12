@@ -42,7 +42,7 @@ jobs:
         uses: docker/metadata-action@v4
         with:
           images: |
-            wallabag/wallabag
+            towo/wallabag
             ghcr.io/${{ github.repository }}
 
       - name: Build and push Docker images
